@@ -1,15 +1,38 @@
 
+<div class="container pt-3">
+
+  <h1 class="pb-3">Stupid Coaching</h1>
+
+<div class="white-card">
+
+    <h4><%= params[:query] %></h4>
+
+    <p><em> - You</em></p>
+
+  </div>
+
+  <div class="yellow-card">
+
+    <h4> <%= @coach_answer %></h4>
+
+    <p><em> - Your coach</em></p>
+
+
+
+  </div>
+
+
+
+</div>
+
+
+
 
 <div class="container text-center">
 
-  <h1>Your Question:</h1>
 
-  <h4><%= params[:query] %></h4>
 
-  <h1>Your coach's answer</h1>
-
-  <h4> <%= @coach_answer %></h4>
-  <%= link_to "Ask again!", ask_path %>
+  <%= link_to "Ask again!", ask_path, class: "btn btn-success mt-3" %>
 
 
 

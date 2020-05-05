@@ -1,3 +1,22 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+$yellow : #FFFEE1;
+
+
+.white-card {
+
+  background: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-left: solid #DDDDDD 8px;
+
+}
+
+
+.yellow-card {
+  background: $yellow;
+  padding: 24px;
+  border-left: solid #DDDDDD 8px;
+}
